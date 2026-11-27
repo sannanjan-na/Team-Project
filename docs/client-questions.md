@@ -1,0 +1,6 @@
+1. **Clock Stop Timestamp (Open Point 1):** Should the SLA clock stop at `RESOLVED` or at `CLOSED`? Since `RESOLVED_DT` is present only from April 2026 onward, how should pre-April 2026 complaints be handled if `RESOLVED` is chosen?
+2. **Incident Resolution Rule (Open Point 2):** Does an incident count as resolved only when its last linked complaint is resolved, or is another rule intended?
+3. **Historical SLA Targets (Open Point 3):** Did allowed resolution times for any complaint type change between November 2025 and October 2026, or should the current targets file be applied across all 12 months?
+4. **Non-Consumer Zone Mapping & Tanker Requests (Open Points 4 & 5):** How should complaints from non-consumers be assigned to a zone when missing/unmapped, and are tanker requests in the exports treated as complaints for metrics?
+5. **September 2026 File, Shifted Timestamp & Duplicates (Open Point 6 & Section 8):** Why does the September 2026 file differ from the other months, which month's `REG_DT` appears shifted, and what rule reliably identifies two-channel duplicate complaints sharing a `COMP_NO`?
+6. **Public Holiday Calendar (Section 14):** Will the public holiday list for Ujjain be shared by 28 November as noted in the BRD?
